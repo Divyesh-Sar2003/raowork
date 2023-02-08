@@ -1,7 +1,11 @@
 /* Bordered form */
 form {
-  border: 3px solid #f1f1f1;
+  border-style: groove  ;
+  width: 660px;
+  height: 620px;
+ margin-left: 350px;
 }
+
 
 /* Full-width inputs */
 input[type=text], input[type=password] {
@@ -51,6 +55,7 @@ img.avatar {
 /* Add padding to containers */
 .container {
   padding: 16px;
+  
 }
 
 /* The "Forgot password" text */
