@@ -1,11 +1,19 @@
-/* Bordered form */
-form {
-  border-style: groove  ;
-  width: 660px;
-  height: 620px;
- margin-left: 350px;
+/*Background image property */
+body {
+  background-image: url(login_background.jpg);
 }
 
+/* Bordered form */
+form {
+  border: 3px solid rgb(219, 188, 9);
+  width: 580px;
+  height: 630px;
+  margin-left: 450px;
+  margin-top: 30px;
+  border-color: deepskyblue;
+  border-radius: 30px;
+  opacity: 0.9;
+ }
 
 /* Full-width inputs */
 input[type=text], input[type=password] {
@@ -15,6 +23,7 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  border-radius: 10px;
 }
 
 /* Set a style for all buttons */
@@ -26,11 +35,13 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
+  border-radius: 10px;
 }
 
 /* Add a hover effect for buttons */
 button:hover {
-  opacity: 0.8;
+  opacity: 0.9;
+  background-color: aqua;
 }
 
 /* Extra style for the cancel button (red) */
@@ -49,13 +60,14 @@ button:hover {
 /* Avatar image */
 img.avatar {
   width: 20%;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 /* Add padding to containers */
 .container {
   padding: 16px;
-  
+  margin: 20px;
+  border-radius: 10px;
 }
 
 /* The "Forgot password" text */
